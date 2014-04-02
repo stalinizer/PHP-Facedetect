@@ -1,0 +1,15 @@
+#! /usr/bin/python
+"""
+        norm
+        a rm replacement for autoconf to not remove the file but keep it.
+        
+1. cache the files
+2. count them
+3. keep a hash of them
+
+"""
+
+import sys
+
+for x in sys.argv :
+    print "argv %s" % x
