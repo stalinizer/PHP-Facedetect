@@ -24,7 +24,7 @@
 #include "php_facedetect.h"
 
 #include <opencv/cv.h>
-#include <opencv/highgui.h>
+//#include <opencv/highgui.h>
 
 /* {{{ facedetect_functions[]
  *
