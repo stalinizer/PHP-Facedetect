@@ -68,7 +68,6 @@ PHP_MINFO_FUNCTION(facedetect)
 	php_info_print_table_start();
 	php_info_print_table_row(2, "facedetect support", "enabled");
 	php_info_print_table_row(2, "facedetect version", PHP_FACEDETECT_VERSION);
-	php_info_print_table_row(2, "OpenCV version", CV_VERSION);
 	php_info_print_table_end();
 }
 /* }}} */
